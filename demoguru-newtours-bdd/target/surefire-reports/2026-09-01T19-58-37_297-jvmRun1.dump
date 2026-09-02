@@ -1,0 +1,14 @@
+# Created at 2026-09-01T19:58:38.145
+org.junit.platform.launcher.core.DiscoveryIssueException: TestEngine with ID 'junit-platform-suite' encountered a critical issue during test discovery:
+
+(1) [ERROR] [cucumber] Failed to parse resource at: classpath:features/loading.feature
+(2:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Caracteristica: Boton de carga y mensaje en pantalla'
+(6:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Escenario: Carga exitosa habiendo presionado el boton'
+(7:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado que el usuario esta en la pagina de carga'
+(8:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Cuando presione el boton de START'
+(9:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Y haya concluido el tiempo de carga'
+(10:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Entonces Se muestra la palabra HELLO WORLD exitosamente'
+(11:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty (via @Suite runner.CucumberTest).
+    Source: ClasspathResourceSource [classpathResourceName = 'features/loading.feature', filePosition = null]
+
+
